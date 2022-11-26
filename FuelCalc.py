@@ -1,13 +1,11 @@
-#Authors: Dom, Wonjun Jo
-#C3313933, C3341243
-#Date: 23/08/2019
-#Task1: Displays the previous Km reading, current kKm reaing, price per liter of fuel, cost of fuel.
-#Task2: calculates the Km travelled, Number of litres used and fuel consumed.
+#Dev: Dom, L1 SWE
+#Displays the previous Km reading, current kKm reaing, price per liter of fuel, cost of fuel.
+#Calculates the Km travelled, Number of litres used and fuel consumed.
 
 
-#takes 4 parameters
+#Parameters
 def consumption(previousKm, currentKm, priceFuel, totalCost):
-#Calculations pulled from T2
+#Calculations pulled from previous ()
    kmTravelled = currentKm - previousKm
    litres = (totalCost / priceFuel) * 100
    fuelConsumption = (litres / kmTravelled) *100
